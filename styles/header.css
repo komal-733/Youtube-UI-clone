@@ -1,0 +1,131 @@
+.header{
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+.left-header{
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:80px;
+}
+.menu{
+  height: 24px;
+  margin:0px 18px 0px 18px;
+  padding: 8px;
+}
+.menu:hover{
+  background-color:rgb(242, 241, 241);
+  border-radius: 50%;
+}
+.youtube{
+  height:20px;
+}
+.mid-header{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  height: 40px;
+}
+.search{
+  flex: 1;
+  font-size: 16px;
+  padding-left:14px ;
+  border:solid ;
+  border-width: 1px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-color: rgb(212, 210, 210);
+  width:0;
+  max-width: 540px;
+  box-shadow:inset 0.5px 0.5px 2px rgba(0,0,0,0.15);
+}
+.search::placeholder{
+  color: rgb(150, 149, 149);
+}
+.lens-feature{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-right: 18px;
+}
+.lens{
+  background-color:rgb(242, 241, 241);
+  border: solid;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-color: rgb(212, 210, 210) ;
+  border-width: 1px;
+  margin-left: -1px;
+  width: 65px;
+}
+.lens:hover{
+  background-color: rgb(238, 236, 236);
+  box-shadow:0.5px 0.5px 1px rgba(0,0,0,0.15);
+}
+
+.lens-feature .toolkit{
+  position: absolute;
+  bottom:-50px;
+  background-color:rgb(107, 107, 107) ;
+  color: white;
+  font-size: 12px;
+  padding: 8px 6px;
+  border-radius: 4px;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+}
+.lens-feature:hover .toolkit{
+  opacity: 1;
+}
+.speaker{
+  border: none;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(242, 241, 241);
+}
+.speaker:hover{
+  background-color: rgb(212, 210, 210);
+}
+.speaker-icon{
+  height: 24px;
+}
+.right-header{
+  margin-left: 80px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:30px ; 
+  flex-shrink: 0;
+}
+.video{
+  height: 24px;
+  padding: 8px;
+}
+.bell{
+  height: 24px;
+  padding: 8px;
+}
+.myself{
+  height: 34px;
+  border-radius:50% ;
+}
+.video:hover,.bell:hover{
+  background-color:rgb(242, 241, 241);
+  border-radius: 50%;
+}
